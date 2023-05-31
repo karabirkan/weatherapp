@@ -1,0 +1,27 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "esbuild --bundle src/main.js --outfile=dist/bundle.js",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karabirkan/weatherapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karabirkan/weatherapp/issues"
+  },
+  "homepage": "https://github.com/karabirkan/weatherapp#readme",
+  "devDependencies": {
+    "esbuild": "^0.17.19",
+    "prettier": "^2.8.8",
+    "vite": "^4.3.9"
+  }
+}
